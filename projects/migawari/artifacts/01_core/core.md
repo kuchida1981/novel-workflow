@@ -1,4 +1,4 @@
-# Step 1: 核 (Core)
+# 『誰の身代わりでもなく』 (Step 1: 核 Core)
 
 > **status:** approved
 > **承認日:** 2026-04-22

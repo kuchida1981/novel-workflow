@@ -5,19 +5,21 @@
 ## What Changes
 
 - 「Novel Workflow (NW) v0.1」の運用定義ドキュメントの作成
-- 物語のライフサイクルを管理するためのディレクトリ構造の構築
-  - `01_core`: テーマや問いの定義
-  - `02_assets`: キャラクター設定や世界観の管理
-  - `03_plot`: 物語の構造設計
-  - `04_scenes`: シーン単位の分解設計
-  - `05_draft`: 本文執筆
+- 物語のライフサイクルを管理するための**スケルトン（雛形）ディレクトリ構造**の構築
+  - `skeleton/artifacts/01_core`: テーマや問いの定義
+  - `skeleton/artifacts/02_assets/`: キャラクター設定や世界観の管理
+  - `skeleton/artifacts/03_plot`: 物語の構造設計
+  - `skeleton/artifacts/04_scenes`: シーン単位の分解設計
+  - `skeleton/artifacts/05_draft`: 本文執筆
+- **スケルトンから個別の「作業用プロジェクト」を生成する仕組み**の定義
 - 成果物間の整合性を検証するための基本的な枠組みの定義
 
 ## Capabilities
 
 ### New Capabilities
-- `novel-structure-framework`: 小説の各フェーズ（核、素材、構造、分解、初稿）を成果物として管理し、上流工程を下流工程の制約（Spec）として扱う仕組み。
-- `novel-review-process`: 生成された本文やプロットが、上流で定義された制約を遵守しているかを確認する（手動・自動）プロセス。
+- `novel-structure-framework`: 小説の各フェーズを成果物として管理し、上流工程を下流工程の制約（Spec）として扱う仕組み。
+- `novel-project-management`: スケルトンから個別の作業用ディレクトリ（`projects/<name>/`）を生成・管理する機能。
+- `novel-review-process`: 生成された本文やプロットが、上流で定義された制約を遵守しているかを確認するプロセス。
 
 ### Modified Capabilities
 - なし

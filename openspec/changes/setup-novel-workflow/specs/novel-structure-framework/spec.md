@@ -1,11 +1,11 @@
 ## ADDED Requirements
 
 ### Requirement: ディレクトリ構造の自動生成
-システムは、小説プロジェクトのための標準的なディレクトリ構造を提供しなければならない（SHALL）。
+システムは、小説プロジェクトのための標準的なディレクトリ構造（スケルトン）を提供しなければならない（SHALL）。
 
 #### Scenario: 構造の生成に成功する
 - **WHEN** セットアップコマンドが実行されたとき
-- **THEN** `novel/artifacts/01_core`、`novel/artifacts/02_assets/characters`、`novel/artifacts/03_plot`、`novel/artifacts/04_scenes`、`novel/artifacts/05_draft` の各ディレクトリが作成される
+- **THEN** `skeleton/artifacts/01_core`、`skeleton/artifacts/02_assets/characters`、`skeleton/artifacts/03_plot`、`skeleton/artifacts/04_scenes`、`skeleton/artifacts/05_draft` の各ディレクトリが作成される
 
 ### Requirement: アーティファクトのライフサイクル管理
 フレームワークは、上流のアーティファクトが下流のアーティファクトの要件として機能する、線形な依存関係チェーンを管理しなければならない（SHALL）。

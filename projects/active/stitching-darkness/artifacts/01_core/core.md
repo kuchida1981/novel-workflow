@@ -1,5 +1,4 @@
-# Step 1: 核 (Core)
-
+# Step 1: 核 (Core) ... 暗闇を縫い留めるように
 > **status:** approved
 > **承認日:** 2026-04-28
 

@@ -1,4 +1,4 @@
-# Step 1: 核 (Core)
+# Step 1: 核 (Core) -- 承認
 
 > **status:** draft
 > **承認日:**
